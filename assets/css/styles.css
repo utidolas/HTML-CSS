@@ -1,0 +1,50 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Apply this guy to resize the box with padding*/
+}
+
+/*Changing background*/
+body {
+    background-color: #FAEDCD;
+}
+
+/*Title and caption*/
+.title {
+    color: #000000;
+    font-family: "Quicksand", "consolas", sans-serif;
+    margin: 1% 0px 0px 1%;
+    font-size: large;
+}
+
+.caption {
+    color: #000000;
+    font-family: "Quicksand", "consolas", sans-serif;
+    margin: -5px 0px -15px 0%;
+}
+
+/*Images - add 'img' at the end - */
+.image_container img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 800px;
+    height: 600px;
+    margin: 1% 0% 0% 1%; /* (up, right, bottom, left) */
+    padding: px;
+    border-radius: 10px;
+}
+
+/*font of pretty much everything*/
+.description {
+    color: #000000;
+    font-family: "Quicksand", "consolas", sans-serif;
+    margin: 0px 0px 0px 1%;
+    font-size: large;
+}
+
+/*to adjust the indent in lists*/
+.padding_list{
+    padding-left: 1.5%;
+}
+
